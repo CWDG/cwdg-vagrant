@@ -81,6 +81,7 @@ The workflow for doing exercises will be:
 2. Clone the repository **into the "workspace" directory inside of your clone of this repository** using your preferred method (GitHub Desktop or just `git`).
 3. ssh into the VM using `vagrant ssh`.
 4. Go to the "workspace" directory inside the VM using `cd workspace`.
+  - **On Windows** you may start in the `~` directory: simply `cd /vagrant` first into the vagrant, `ls` to see the workspace folder and run `cd workspace`. 
 5. Make your changes locally on your computer. Test them inside the VM.
 6. Commit your changes with Git.
 7. Open a pull-request against the exercise repo on GitHub.
